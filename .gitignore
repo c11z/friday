@@ -11,4 +11,4 @@
 *.out
 
 # Secrets
-local.env
+env.list
