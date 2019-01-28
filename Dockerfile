@@ -21,7 +21,7 @@ RUN apt update && \
 RUN printf -- "alias ll=\"ls -al\";\nexport PATH=\"${PATH}\";" > /.profile
 
 # set the environment variables for the build process
-ENV GO111MODULE auto
+ENV GO111MODULE on
 ENV CGO_ENABLED ${CGO_ENABLED}
 ENV GOARCH ${GOARCH}
 ENV GOOS ${GOOS}
